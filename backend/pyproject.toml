@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "hometap-backend"
+version = "0.1.0"
+description = "Starter template for Hometap engineering exercise"
+authors = ["Greg Mundy <gmundy@hometap.com>"]
+readme = "README.md"
+packages = [{include = "hometap_backend"}]
+
+[tool.poetry.dependencies]
+python = "^3.11.7"
+django = "^5.1.5"
+python-dotenv = "^1.0.1"
+django-cors-headers = "^4.6.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
